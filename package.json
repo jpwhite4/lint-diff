@@ -1,0 +1,15 @@
+{
+    "name": "lint-diff",
+    "repository": "https://github.com/jpwhite4/lint-diff",
+    "licence": "GPL-3.0",
+    "version": "1.0.0",
+    "private": true,
+    "bin": "./lint-diff.js",
+    "description": "Helper script to diff lint output files",
+    "author": "Joseph P. White <jpwhite4@buffalo.edu>",
+    "dependencies": {
+        "diff": "3.2.x",
+        "colors": "1.1.x"
+    },
+    "engine": "node >= 0.10.25"
+}
