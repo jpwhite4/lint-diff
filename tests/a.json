@@ -1,0 +1,2540 @@
+[
+   {
+      "messages" : [
+         {
+            "nodeType" : "FunctionExpression",
+            "severity" : 2,
+            "source" : "            jsPlumb.ready(function() {",
+            "line" : 2,
+            "ruleId" : "space-before-function-paren",
+            "message" : "Missing space before function parentheses.",
+            "column" : 35,
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  35,
+                  35
+               ]
+            }
+         },
+         {
+            "column" : 38,
+            "message" : "Block must not be padded by blank lines.",
+            "fix" : {
+               "range" : [
+                  39,
+                  41
+               ],
+               "text" : "\n"
+            },
+            "nodeType" : "BlockStatement",
+            "severity" : 2,
+            "source" : "            jsPlumb.ready(function() {",
+            "line" : 2,
+            "ruleId" : "padded-blocks"
+         },
+         {
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "range" : [
+                  72,
+                  94
+               ],
+               "text" : "                    "
+            },
+            "source" : "                      endpoints:[\"Blank\", \"Blank\" ],",
+            "line" : 5,
+            "nodeType" : "Property",
+            "severity" : 2,
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  104,
+                  104
+               ],
+               "text" : " "
+            },
+            "message" : "Missing space before value for key 'endpoints'.",
+            "column" : 33,
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "source" : "                      endpoints:[\"Blank\", \"Blank\" ],",
+            "line" : 5,
+            "ruleId" : "key-spacing"
+         },
+         {
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 5,
+            "source" : "                      endpoints:[\"Blank\", \"Blank\" ],",
+            "ruleId" : "quotes",
+            "message" : "Strings must use singlequote.",
+            "column" : 34,
+            "fix" : {
+               "range" : [
+                  105,
+                  112
+               ],
+               "text" : "'Blank'"
+            }
+         },
+         {
+            "source" : "                      endpoints:[\"Blank\", \"Blank\" ],",
+            "line" : 5,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes",
+            "message" : "Strings must use singlequote.",
+            "column" : 43,
+            "fix" : {
+               "range" : [
+                  114,
+                  121
+               ],
+               "text" : "'Blank'"
+            }
+         },
+         {
+            "ruleId" : "array-bracket-spacing",
+            "nodeType" : "ArrayExpression",
+            "severity" : 2,
+            "line" : 5,
+            "source" : "                      endpoints:[\"Blank\", \"Blank\" ],",
+            "column" : 51,
+            "message" : "There should be no space before ']'.",
+            "fix" : {
+               "range" : [
+                  121,
+                  122
+               ],
+               "text" : ""
+            }
+         },
+         {
+            "ruleId" : "indent",
+            "severity" : 2,
+            "nodeType" : "Property",
+            "line" : 6,
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],",
+            "fix" : {
+               "range" : [
+                  125,
+                  147
+               ],
+               "text" : "                    "
+            },
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22."
+         },
+         {
+            "ruleId" : "array-bracket-spacing",
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],",
+            "line" : 6,
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  158,
+                  159
+               ]
+            },
+            "column" : 33,
+            "message" : "There should be no space after '['."
+         },
+         {
+            "line" : 6,
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],",
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "ruleId" : "array-bracket-spacing",
+            "fix" : {
+               "range" : [
+                  160,
+                  161
+               ],
+               "text" : ""
+            },
+            "message" : "There should be no space after '['.",
+            "column" : 35
+         },
+         {
+            "fix" : {
+               "range" : [
+                  161,
+                  173
+               ],
+               "text" : "'PlainArrow'"
+            },
+            "column" : 37,
+            "message" : "Strings must use singlequote.",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],",
+            "line" : 6,
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  192,
+                  193
+               ],
+               "text" : ""
+            },
+            "column" : 69,
+            "message" : "There should be no space before ']'.",
+            "ruleId" : "array-bracket-spacing",
+            "line" : 6,
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],",
+            "severity" : 2,
+            "nodeType" : "ArrayExpression"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  194,
+                  195
+               ],
+               "text" : ""
+            },
+            "message" : "There should be no space before ']'.",
+            "column" : 71,
+            "ruleId" : "array-bracket-spacing",
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "line" : 6,
+            "source" : "                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],"
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  198,
+                  220
+               ]
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "ruleId" : "indent",
+            "source" : "                      paintStyle: { strokeStyle:\"#216477\", lineWidth:5 }",
+            "line" : 7,
+            "severity" : 2,
+            "nodeType" : "Property"
+         },
+         {
+            "source" : "                      paintStyle: { strokeStyle:\"#216477\", lineWidth:5 }",
+            "line" : 7,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes",
+            "message" : "Strings must use singlequote.",
+            "column" : 49,
+            "fix" : {
+               "range" : [
+                  246,
+                  255
+               ],
+               "text" : "'#216477'"
+            }
+         },
+         {
+            "ruleId" : "key-spacing",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                      paintStyle: { strokeStyle:\"#216477\", lineWidth:5 }",
+            "line" : 7,
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  246,
+                  246
+               ]
+            },
+            "column" : 49,
+            "message" : "Missing space before value for key 'strokeStyle'."
+         },
+         {
+            "ruleId" : "key-spacing",
+            "source" : "                      paintStyle: { strokeStyle:\"#216477\", lineWidth:5 }",
+            "line" : 7,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "column" : 70,
+            "message" : "Missing space before value for key 'lineWidth'.",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  267,
+                  267
+               ]
+            }
+         },
+         {
+            "message" : "Expected indentation of 16 spaces but found 20.",
+            "column" : 21,
+            "fix" : {
+               "text" : "                ",
+               "range" : [
+                  271,
+                  291
+               ]
+            },
+            "line" : 8,
+            "source" : "                    };",
+            "nodeType" : "ObjectExpression",
+            "severity" : 2,
+            "ruleId" : "indent"
+         },
+         {
+            "ruleId" : "quotes",
+            "line" : 10,
+            "source" : "                jsPlumb.setContainer($(\"#flowchart\"));",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "fix" : {
+               "range" : [
+                  334,
+                  346
+               ],
+               "text" : "'#flowchart'"
+            },
+            "column" : 40,
+            "message" : "Strings must use singlequote."
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  385,
+                  407
+               ]
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "severity" : 2,
+            "nodeType" : "Property",
+            "source" : "                      source:$(\"#remote_machine\"),",
+            "line" : 13,
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  414,
+                  414
+               ],
+               "text" : " "
+            },
+            "message" : "Missing space before value for key 'source'.",
+            "column" : 30,
+            "ruleId" : "key-spacing",
+            "line" : 13,
+            "source" : "                      source:$(\"#remote_machine\"),",
+            "severity" : 2,
+            "nodeType" : "CallExpression"
+         },
+         {
+            "ruleId" : "quotes",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 13,
+            "source" : "                      source:$(\"#remote_machine\"),",
+            "message" : "Strings must use singlequote.",
+            "column" : 32,
+            "fix" : {
+               "text" : "'#remote_machine'",
+               "range" : [
+                  416,
+                  433
+               ]
+            }
+         },
+         {
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  436,
+                  458
+               ]
+            },
+            "ruleId" : "indent",
+            "nodeType" : "Property",
+            "severity" : 2,
+            "line" : 14,
+            "source" : "                      target: $(\"#local_mirror\"),"
+         },
+         {
+            "source" : "                      target: $(\"#local_mirror\"),",
+            "line" : 14,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes",
+            "fix" : {
+               "text" : "'#local_mirror'",
+               "range" : [
+                  468,
+                  483
+               ]
+            },
+            "column" : 33,
+            "message" : "Strings must use singlequote."
+         },
+         {
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  486,
+                  508
+               ]
+            },
+            "line" : 15,
+            "source" : "                      connector: \"Straight\",",
+            "nodeType" : "Property",
+            "severity" : 2,
+            "ruleId" : "indent"
+         },
+         {
+            "line" : 15,
+            "source" : "                      connector: \"Straight\",",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes",
+            "column" : 34,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'Straight'",
+               "range" : [
+                  519,
+                  529
+               ]
+            }
+         },
+         {
+            "ruleId" : "indent",
+            "source" : "                      anchor: \"AutoDefault\"",
+            "line" : 16,
+            "severity" : 2,
+            "nodeType" : "Property",
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  531,
+                  553
+               ]
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23
+         },
+         {
+            "ruleId" : "quotes",
+            "line" : 16,
+            "source" : "                      anchor: \"AutoDefault\"",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "column" : 31,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'AutoDefault'",
+               "range" : [
+                  561,
+                  574
+               ]
+            }
+         },
+         {
+            "message" : "Expected indentation of 16 spaces but found 18.",
+            "column" : 19,
+            "fix" : {
+               "range" : [
+                  575,
+                  593
+               ],
+               "text" : "                "
+            },
+            "line" : 17,
+            "source" : "                  }, common);",
+            "nodeType" : "ObjectExpression",
+            "severity" : 2,
+            "ruleId" : "indent"
+         },
+         {
+            "line" : 20,
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "nodeType" : "Property",
+            "severity" : 2,
+            "ruleId" : "indent",
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "range" : [
+                  640,
+                  662
+               ],
+               "text" : "                    "
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "CallExpression",
+            "line" : 20,
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "ruleId" : "key-spacing",
+            "fix" : {
+               "range" : [
+                  669,
+                  669
+               ],
+               "text" : " "
+            },
+            "column" : 30,
+            "message" : "Missing space before value for key 'source'."
+         },
+         {
+            "column" : 32,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  671,
+                  686
+               ],
+               "text" : "'#local_mirror'"
+            },
+            "line" : 20,
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  689,
+                  711
+               ]
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "line" : 21,
+            "source" : "                      target: $(\"#accountfact\"),",
+            "severity" : 2,
+            "nodeType" : "Property",
+            "ruleId" : "indent"
+         },
+         {
+            "ruleId" : "quotes",
+            "source" : "                      target: $(\"#accountfact\"),",
+            "line" : 21,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "message" : "Strings must use singlequote.",
+            "column" : 33,
+            "fix" : {
+               "range" : [
+                  721,
+                  735
+               ],
+               "text" : "'#accountfact'"
+            }
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  738,
+                  760
+               ]
+            },
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "ruleId" : "indent",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 22,
+            "severity" : 2,
+            "nodeType" : "Property"
+         },
+         {
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  768,
+                  768
+               ]
+            },
+            "message" : "Missing space before value for key 'anchors'.",
+            "column" : 31,
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 22,
+            "ruleId" : "key-spacing"
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "line" : 22,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "ruleId" : "array-bracket-spacing",
+            "fix" : {
+               "range" : [
+                  769,
+                  770
+               ],
+               "text" : ""
+            },
+            "message" : "There should be no space after '['.",
+            "column" : 31
+         },
+         {
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 22,
+            "fix" : {
+               "range" : [
+                  770,
+                  784
+               ],
+               "text" : "'BottomCenter'"
+            },
+            "column" : 33,
+            "message" : "Strings must use singlequote."
+         },
+         {
+            "line" : 22,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes",
+            "column" : 49,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'TopCenter'",
+               "range" : [
+                  786,
+                  797
+               ]
+            }
+         },
+         {
+            "column" : 61,
+            "message" : "There should be no space before ']'.",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  797,
+                  798
+               ]
+            },
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 22,
+            "nodeType" : "ArrayExpression",
+            "severity" : 2,
+            "ruleId" : "array-bracket-spacing"
+         },
+         {
+            "source" : "                  }, common);",
+            "line" : 23,
+            "severity" : 2,
+            "nodeType" : "ObjectExpression",
+            "ruleId" : "indent",
+            "fix" : {
+               "range" : [
+                  800,
+                  818
+               ],
+               "text" : "                "
+            },
+            "column" : 19,
+            "message" : "Expected indentation of 16 spaces but found 18."
+         },
+         {
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  865,
+                  887
+               ]
+            },
+            "nodeType" : "Property",
+            "severity" : 2,
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "line" : 26,
+            "ruleId" : "indent"
+         },
+         {
+            "ruleId" : "key-spacing",
+            "line" : 26,
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "severity" : 2,
+            "nodeType" : "CallExpression",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  894,
+                  894
+               ]
+            },
+            "column" : 30,
+            "message" : "Missing space before value for key 'source'."
+         },
+         {
+            "column" : 32,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  896,
+                  911
+               ],
+               "text" : "'#local_mirror'"
+            },
+            "source" : "                      source:$(\"#local_mirror\"),",
+            "line" : 26,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  914,
+                  936
+               ],
+               "text" : "                    "
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "severity" : 2,
+            "nodeType" : "Property",
+            "line" : 27,
+            "source" : "                      target: $(\"#mongo\"),",
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  946,
+                  954
+               ],
+               "text" : "'#mongo'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 33,
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 27,
+            "source" : "                      target: $(\"#mongo\"),"
+         },
+         {
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  957,
+                  979
+               ]
+            },
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 28,
+            "nodeType" : "Property",
+            "severity" : 2,
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  987,
+                  987
+               ],
+               "text" : " "
+            },
+            "message" : "Missing space before value for key 'anchors'.",
+            "column" : 31,
+            "ruleId" : "key-spacing",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 28,
+            "severity" : 2,
+            "nodeType" : "ArrayExpression"
+         },
+         {
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  988,
+                  989
+               ]
+            },
+            "message" : "There should be no space after '['.",
+            "column" : 31,
+            "line" : 28,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "ruleId" : "array-bracket-spacing"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  989,
+                  1003
+               ],
+               "text" : "'BottomCenter'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 33,
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 28
+         },
+         {
+            "fix" : {
+               "range" : [
+                  1005,
+                  1016
+               ],
+               "text" : "'TopCenter'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 49,
+            "ruleId" : "quotes",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 28,
+            "severity" : 2,
+            "nodeType" : "Literal"
+         },
+         {
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  1016,
+                  1017
+               ]
+            },
+            "message" : "There should be no space before ']'.",
+            "column" : 61,
+            "ruleId" : "array-bracket-spacing",
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 28
+         },
+         {
+            "line" : 29,
+            "source" : "                  }, common);",
+            "nodeType" : "ObjectExpression",
+            "severity" : 2,
+            "ruleId" : "indent",
+            "message" : "Expected indentation of 16 spaces but found 18.",
+            "column" : 19,
+            "fix" : {
+               "text" : "                ",
+               "range" : [
+                  1019,
+                  1037
+               ]
+            }
+         },
+         {
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "fix" : {
+               "range" : [
+                  1084,
+                  1106
+               ],
+               "text" : "                    "
+            },
+            "ruleId" : "indent",
+            "nodeType" : "Property",
+            "severity" : 2,
+            "source" : "                      source:$(\"#accountfact\"),",
+            "line" : 32
+         },
+         {
+            "source" : "                      source:$(\"#accountfact\"),",
+            "line" : 32,
+            "severity" : 2,
+            "nodeType" : "CallExpression",
+            "ruleId" : "key-spacing",
+            "fix" : {
+               "range" : [
+                  1113,
+                  1113
+               ],
+               "text" : " "
+            },
+            "column" : 30,
+            "message" : "Missing space before value for key 'source'."
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 32,
+            "fix" : {
+               "range" : [
+                  1115,
+                  1129
+               ],
+               "text" : "'#accountfact'"
+            },
+            "line" : 32,
+            "source" : "                      source:$(\"#accountfact\"),",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "ruleId" : "quotes"
+         },
+         {
+            "ruleId" : "indent",
+            "line" : 33,
+            "source" : "                      target: $(\"#mongo\"),",
+            "nodeType" : "Property",
+            "severity" : 2,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "range" : [
+                  1132,
+                  1154
+               ],
+               "text" : "                    "
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                      target: $(\"#mongo\"),",
+            "line" : 33,
+            "ruleId" : "quotes",
+            "fix" : {
+               "range" : [
+                  1164,
+                  1172
+               ],
+               "text" : "'#mongo'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 33
+         },
+         {
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "fix" : {
+               "range" : [
+                  1175,
+                  1197
+               ],
+               "text" : "                    "
+            },
+            "nodeType" : "Property",
+            "severity" : 2,
+            "line" : 34,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "ruleId" : "indent"
+         },
+         {
+            "ruleId" : "key-spacing",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 34,
+            "nodeType" : "ArrayExpression",
+            "severity" : 2,
+            "column" : 31,
+            "message" : "Missing space before value for key 'anchors'.",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  1205,
+                  1205
+               ]
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "ArrayExpression",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 34,
+            "ruleId" : "array-bracket-spacing",
+            "fix" : {
+               "range" : [
+                  1206,
+                  1207
+               ],
+               "text" : ""
+            },
+            "message" : "There should be no space after '['.",
+            "column" : 31
+         },
+         {
+            "column" : 33,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  1207,
+                  1221
+               ],
+               "text" : "'BottomCenter'"
+            },
+            "ruleId" : "quotes",
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 34,
+            "nodeType" : "Literal",
+            "severity" : 2
+         },
+         {
+            "fix" : {
+               "range" : [
+                  1223,
+                  1234
+               ],
+               "text" : "'TopCenter'"
+            },
+            "column" : 49,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "line" : 34,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "severity" : 2,
+            "nodeType" : "Literal"
+         },
+         {
+            "column" : 61,
+            "message" : "There should be no space before ']'.",
+            "fix" : {
+               "range" : [
+                  1234,
+                  1235
+               ],
+               "text" : ""
+            },
+            "nodeType" : "ArrayExpression",
+            "severity" : 2,
+            "source" : "                      anchors:[ \"BottomCenter\", \"TopCenter\" ]",
+            "line" : 34,
+            "ruleId" : "array-bracket-spacing"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  1237,
+                  1255
+               ],
+               "text" : "                "
+            },
+            "message" : "Expected indentation of 16 spaces but found 18.",
+            "column" : 19,
+            "source" : "                  }, common);",
+            "line" : 35,
+            "severity" : 2,
+            "nodeType" : "ObjectExpression",
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  1302,
+                  1324
+               ]
+            },
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "ruleId" : "indent",
+            "severity" : 2,
+            "nodeType" : "Property",
+            "source" : "                      source:$(\"#mongo\"),",
+            "line" : 38
+         },
+         {
+            "ruleId" : "key-spacing",
+            "line" : 38,
+            "source" : "                      source:$(\"#mongo\"),",
+            "severity" : 2,
+            "nodeType" : "CallExpression",
+            "fix" : {
+               "range" : [
+                  1331,
+                  1331
+               ],
+               "text" : " "
+            },
+            "message" : "Missing space before value for key 'source'.",
+            "column" : 30
+         },
+         {
+            "ruleId" : "quotes",
+            "source" : "                      source:$(\"#mongo\"),",
+            "line" : 38,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "message" : "Strings must use singlequote.",
+            "column" : 32,
+            "fix" : {
+               "text" : "'#mongo'",
+               "range" : [
+                  1333,
+                  1341
+               ]
+            }
+         },
+         {
+            "source" : "                      target: $(\"#jobfact\"),",
+            "line" : 39,
+            "nodeType" : "Property",
+            "severity" : 2,
+            "ruleId" : "indent",
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "fix" : {
+               "range" : [
+                  1344,
+                  1366
+               ],
+               "text" : "                    "
+            }
+         },
+         {
+            "fix" : {
+               "text" : "'#jobfact'",
+               "range" : [
+                  1376,
+                  1386
+               ]
+            },
+            "column" : 33,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 39,
+            "source" : "                      target: $(\"#jobfact\"),"
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Property",
+            "source" : "                      anchor: \"AutoDefault\"",
+            "line" : 40,
+            "ruleId" : "indent",
+            "fix" : {
+               "range" : [
+                  1389,
+                  1411
+               ],
+               "text" : "                    "
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23
+         },
+         {
+            "ruleId" : "quotes",
+            "line" : 40,
+            "source" : "                      anchor: \"AutoDefault\"",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "fix" : {
+               "range" : [
+                  1419,
+                  1432
+               ],
+               "text" : "'AutoDefault'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 31
+         },
+         {
+            "column" : 19,
+            "message" : "Expected indentation of 16 spaces but found 18.",
+            "fix" : {
+               "range" : [
+                  1433,
+                  1451
+               ],
+               "text" : "                "
+            },
+            "ruleId" : "indent",
+            "source" : "                  }, common);",
+            "line" : 41,
+            "nodeType" : "ObjectExpression",
+            "severity" : 2
+         },
+         {
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  1498,
+                  1520
+               ]
+            },
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "column" : 23,
+            "ruleId" : "indent",
+            "severity" : 2,
+            "nodeType" : "Property",
+            "source" : "                      source:$(\"#jobfact\"),",
+            "line" : 44
+         },
+         {
+            "ruleId" : "key-spacing",
+            "line" : 44,
+            "source" : "                      source:$(\"#jobfact\"),",
+            "nodeType" : "CallExpression",
+            "severity" : 2,
+            "column" : 30,
+            "message" : "Missing space before value for key 'source'.",
+            "fix" : {
+               "range" : [
+                  1527,
+                  1527
+               ],
+               "text" : " "
+            }
+         },
+         {
+            "ruleId" : "quotes",
+            "source" : "                      source:$(\"#jobfact\"),",
+            "line" : 44,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "message" : "Strings must use singlequote.",
+            "column" : 32,
+            "fix" : {
+               "range" : [
+                  1529,
+                  1539
+               ],
+               "text" : "'#jobfact'"
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Property",
+            "source" : "                      target: $(\"#aggregates\"),",
+            "line" : 45,
+            "ruleId" : "indent",
+            "fix" : {
+               "text" : "                    ",
+               "range" : [
+                  1542,
+                  1564
+               ]
+            },
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22."
+         },
+         {
+            "fix" : {
+               "text" : "'#aggregates'",
+               "range" : [
+                  1574,
+                  1587
+               ]
+            },
+            "column" : 33,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "line" : 45,
+            "source" : "                      target: $(\"#aggregates\"),",
+            "severity" : 2,
+            "nodeType" : "Literal"
+         },
+         {
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22.",
+            "fix" : {
+               "range" : [
+                  1590,
+                  1612
+               ],
+               "text" : "                    "
+            },
+            "nodeType" : "Property",
+            "severity" : 2,
+            "source" : "                      connector: \"Straight\",",
+            "line" : 46,
+            "ruleId" : "indent"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  1623,
+                  1633
+               ],
+               "text" : "'Straight'"
+            },
+            "column" : 34,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 46,
+            "source" : "                      connector: \"Straight\","
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Property",
+            "line" : 47,
+            "source" : "                      anchor: \"AutoDefault\"",
+            "ruleId" : "indent",
+            "fix" : {
+               "range" : [
+                  1635,
+                  1657
+               ],
+               "text" : "                    "
+            },
+            "column" : 23,
+            "message" : "Expected indentation of 20 spaces but found 22."
+         },
+         {
+            "ruleId" : "quotes",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                      anchor: \"AutoDefault\"",
+            "line" : 47,
+            "column" : 31,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'AutoDefault'",
+               "range" : [
+                  1665,
+                  1678
+               ]
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "ObjectExpression",
+            "line" : 48,
+            "source" : "                  }, common);",
+            "ruleId" : "indent",
+            "fix" : {
+               "range" : [
+                  1679,
+                  1697
+               ],
+               "text" : "                "
+            },
+            "column" : 19,
+            "message" : "Expected indentation of 16 spaces but found 18."
+         },
+         {
+            "fix" : {
+               "range" : [
+                  1708,
+                  1710
+               ],
+               "text" : "\n"
+            },
+            "column" : 13,
+            "message" : "Block must not be padded by blank lines.",
+            "ruleId" : "padded-blocks",
+            "severity" : 2,
+            "nodeType" : "BlockStatement",
+            "source" : "            });",
+            "line" : 50
+         },
+         {
+            "ruleId" : "camelcase",
+            "nodeType" : "Identifier",
+            "severity" : 2,
+            "column" : 17,
+            "message" : "Identifier 'resource_map' is not in camel case.",
+            "line" : 52,
+            "source" : "            var resource_map = {};"
+         },
+         {
+            "ruleId" : "space-before-function-paren",
+            "severity" : 2,
+            "nodeType" : "FunctionExpression",
+            "line" : 54,
+            "source" : "            var loadstats = function(resource_id) {",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  1799,
+                  1799
+               ]
+            },
+            "message" : "Missing space before function parentheses.",
+            "column" : 37
+         },
+         {
+            "ruleId" : "camelcase",
+            "line" : 54,
+            "source" : "            var loadstats = function(resource_id) {",
+            "message" : "Identifier 'resource_id' is not in camel case.",
+            "column" : 38,
+            "severity" : 2,
+            "nodeType" : "Identifier"
+         },
+         {
+            "message" : "Block must not be padded by blank lines.",
+            "column" : 51,
+            "fix" : {
+               "text" : "\n",
+               "range" : [
+                  1814,
+                  1816
+               ]
+            },
+            "ruleId" : "padded-blocks",
+            "nodeType" : "BlockStatement",
+            "severity" : 2,
+            "line" : 54,
+            "source" : "            var loadstats = function(resource_id) {"
+         },
+         {
+            "fix" : {
+               "text" : "'<img src=\"/gui/images/loading.gif\"></img>Loading'",
+               "range" : [
+                  1846,
+                  1898
+               ]
+            },
+            "column" : 31,
+            "message" : "Strings must use singlequote.",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                var loading = \"<img src=\\\"/gui/images/loading.gif\\\"></img>Loading\";",
+            "line" : 56,
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "text" : "'#accountfact_content'",
+               "range" : [
+                  1919,
+                  1941
+               ]
+            },
+            "column" : 19,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                $(\"#accountfact_content\").html(loading);",
+            "line" : 58
+         },
+         {
+            "source" : "                $(\"#mongo_content\").html(loading);",
+            "line" : 59,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes",
+            "fix" : {
+               "text" : "'#mongo_content'",
+               "range" : [
+                  1976,
+                  1992
+               ]
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 19
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 19,
+            "fix" : {
+               "text" : "'#jobfact_content'",
+               "range" : [
+                  2027,
+                  2045
+               ]
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                $(\"#jobfact_content\").html(loading);",
+            "line" : 60,
+            "ruleId" : "quotes"
+         },
+         {
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 61,
+            "source" : "                $(\"#aggregates_content\").html(loading);",
+            "ruleId" : "quotes",
+            "column" : 19,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  2080,
+                  2101
+               ],
+               "text" : "'#aggregates_content'"
+            }
+         },
+         {
+            "source" : "                var print_list = function(data, selector) {",
+            "line" : 63,
+            "column" : 21,
+            "message" : "Identifier 'print_list' is not in camel case.",
+            "severity" : 2,
+            "nodeType" : "Identifier",
+            "ruleId" : "camelcase"
+         },
+         {
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  2160,
+                  2160
+               ]
+            },
+            "message" : "Missing space before function parentheses.",
+            "column" : 42,
+            "line" : 63,
+            "source" : "                var print_list = function(data, selector) {",
+            "severity" : 2,
+            "nodeType" : "FunctionExpression",
+            "ruleId" : "space-before-function-paren"
+         },
+         {
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 64,
+            "source" : "                    var h = \"<ul>\";",
+            "fix" : {
+               "text" : "'<ul>'",
+               "range" : [
+                  2207,
+                  2213
+               ]
+            },
+            "column" : 29,
+            "message" : "Strings must use singlequote."
+         },
+         {
+            "column" : 21,
+            "message" : "Expected space(s) after \"for\".",
+            "fix" : {
+               "range" : [
+                  2238,
+                  2238
+               ],
+               "text" : " "
+            },
+            "source" : "                    for( var k in data ) {",
+            "line" : 65,
+            "severity" : 2,
+            "ruleId" : "keyword-spacing"
+         },
+         {
+            "ruleId" : "no-restricted-syntax",
+            "line" : 65,
+            "source" : "                    for( var k in data ) {",
+            "column" : 21,
+            "message" : "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.",
+            "severity" : 2,
+            "nodeType" : "ForInStatement"
+         },
+         {
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  2239,
+                  2240
+               ]
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 24,
+            "severity" : 2,
+            "nodeType" : "Program",
+            "line" : 65,
+            "source" : "                    for( var k in data ) {",
+            "ruleId" : "space-in-parens"
+         },
+         {
+            "column" : 40,
+            "message" : "There should be no spaces inside this paren.",
+            "fix" : {
+               "range" : [
+                  2253,
+                  2254
+               ],
+               "text" : ""
+            },
+            "line" : 65,
+            "source" : "                    for( var k in data ) {",
+            "nodeType" : "Program",
+            "severity" : 2,
+            "ruleId" : "space-in-parens"
+         },
+         {
+            "ruleId" : "keyword-spacing",
+            "severity" : 2,
+            "message" : "Expected space(s) after \"if\".",
+            "column" : 25,
+            "fix" : {
+               "range" : [
+                  2284,
+                  2284
+               ],
+               "text" : " "
+            },
+            "source" : "                        if( data.hasOwnProperty(k) ) {",
+            "line" : 66
+         },
+         {
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 27,
+            "fix" : {
+               "range" : [
+                  2285,
+                  2286
+               ],
+               "text" : ""
+            },
+            "ruleId" : "space-in-parens",
+            "line" : 66,
+            "source" : "                        if( data.hasOwnProperty(k) ) {",
+            "nodeType" : "Program",
+            "severity" : 2
+         },
+         {
+            "source" : "                        if( data.hasOwnProperty(k) ) {",
+            "line" : 66,
+            "nodeType" : "Program",
+            "severity" : 2,
+            "ruleId" : "space-in-parens",
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 52,
+            "fix" : {
+               "range" : [
+                  2308,
+                  2309
+               ],
+               "text" : ""
+            }
+         },
+         {
+            "ruleId" : "quotes",
+            "source" : "                            h = h + \"<li>\" + k + \": \" + data[k] + \"</li>\";",
+            "line" : 67,
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "column" : 37,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  2349,
+                  2355
+               ],
+               "text" : "'<li>'"
+            }
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                            h = h + \"<li>\" + k + \": \" + data[k] + \"</li>\";",
+            "line" : 67,
+            "ruleId" : "quotes",
+            "fix" : {
+               "text" : "': '",
+               "range" : [
+                  2362,
+                  2366
+               ]
+            },
+            "column" : 50,
+            "message" : "Strings must use singlequote."
+         },
+         {
+            "column" : 67,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  2379,
+                  2386
+               ],
+               "text" : "'</li>'"
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                            h = h + \"<li>\" + k + \": \" + data[k] + \"</li>\";",
+            "line" : 67,
+            "ruleId" : "quotes"
+         },
+         {
+            "source" : "                    h = h + \"</ul>\";",
+            "line" : 70,
+            "nodeType" : "AssignmentExpression",
+            "severity" : 2,
+            "ruleId" : "operator-assignment",
+            "column" : 21,
+            "message" : "Assignment can be replaced with operator assignment.",
+            "fix" : {
+               "text" : "h += \"</ul>\"",
+               "range" : [
+                  2456,
+                  2471
+               ]
+            }
+         },
+         {
+            "fix" : {
+               "range" : [
+                  2464,
+                  2471
+               ],
+               "text" : "'</ul>'"
+            },
+            "column" : 29,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "line" : 70,
+            "source" : "                    h = h + \"</ul>\";",
+            "severity" : 2,
+            "nodeType" : "Literal"
+         },
+         {
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  2560,
+                  2561
+               ]
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 26,
+            "ruleId" : "space-in-parens",
+            "line" : 74,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"accountdb\" },",
+            "severity" : 2,
+            "nodeType" : "Program"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  2561,
+                  2593
+               ],
+               "text" : "'/rest/supremm/explorer/dbstats'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 28,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"accountdb\" },",
+            "line" : 74,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  2644,
+                  2655
+               ],
+               "text" : "'accountdb'"
+            },
+            "column" : 111,
+            "message" : "Strings must use singlequote.",
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"accountdb\" },",
+            "line" : 74
+         },
+         {
+            "message" : "Missing space before function parentheses.",
+            "column" : 33,
+            "fix" : {
+               "range" : [
+                  2691,
+                  2691
+               ],
+               "text" : " "
+            },
+            "ruleId" : "space-before-function-paren",
+            "nodeType" : "FunctionExpression",
+            "severity" : 2,
+            "line" : 75,
+            "source" : "                        function(data) { print_list(data.data, \"#accountfact_content\"); });"
+         },
+         {
+            "fix" : {
+               "text" : "\n",
+               "range" : [
+                  2699,
+                  2699
+               ]
+            },
+            "column" : 40,
+            "message" : "Statement inside of curly braces should be on next line.",
+            "source" : "                        function(data) { print_list(data.data, \"#accountfact_content\"); });",
+            "line" : 75,
+            "severity" : 2,
+            "nodeType" : "Punctuator",
+            "ruleId" : "brace-style"
+         },
+         {
+            "column" : 64,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  2722,
+                  2744
+               ],
+               "text" : "'#accountfact_content'"
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                        function(data) { print_list(data.data, \"#accountfact_content\"); });",
+            "line" : 75,
+            "ruleId" : "quotes"
+         },
+         {
+            "column" : 89,
+            "message" : "Closing curly brace should be on the same line as opening curly brace or on the line after the previous block.",
+            "fix" : {
+               "range" : [
+                  2747,
+                  2747
+               ],
+               "text" : "\n"
+            },
+            "nodeType" : "Punctuator",
+            "severity" : 2,
+            "source" : "                        function(data) { print_list(data.data, \"#accountfact_content\"); });",
+            "line" : 75,
+            "ruleId" : "brace-style"
+         },
+         {
+            "ruleId" : "space-in-parens",
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"summarydb\" },",
+            "line" : 76,
+            "severity" : 2,
+            "nodeType" : "Program",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  2777,
+                  2778
+               ]
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 26
+         },
+         {
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"summarydb\" },",
+            "line" : 76,
+            "ruleId" : "quotes",
+            "column" : 28,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  2778,
+                  2810
+               ],
+               "text" : "'/rest/supremm/explorer/dbstats'"
+            }
+         },
+         {
+            "fix" : {
+               "text" : "'summarydb'",
+               "range" : [
+                  2861,
+                  2872
+               ]
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 111,
+            "ruleId" : "quotes",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 76,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"summarydb\" },"
+         },
+         {
+            "ruleId" : "space-before-function-paren",
+            "line" : 77,
+            "source" : "                        function(data) { print_list(data.data, \"#mongo_content\"); });",
+            "severity" : 2,
+            "nodeType" : "FunctionExpression",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  2908,
+                  2908
+               ]
+            },
+            "message" : "Missing space before function parentheses.",
+            "column" : 33
+         },
+         {
+            "message" : "Statement inside of curly braces should be on next line.",
+            "column" : 40,
+            "fix" : {
+               "range" : [
+                  2916,
+                  2916
+               ],
+               "text" : "\n"
+            },
+            "nodeType" : "Punctuator",
+            "severity" : 2,
+            "line" : 77,
+            "source" : "                        function(data) { print_list(data.data, \"#mongo_content\"); });",
+            "ruleId" : "brace-style"
+         },
+         {
+            "fix" : {
+               "text" : "'#mongo_content'",
+               "range" : [
+                  2939,
+                  2955
+               ]
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 64,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "line" : 77,
+            "source" : "                        function(data) { print_list(data.data, \"#mongo_content\"); });",
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  2958,
+                  2958
+               ],
+               "text" : "\n"
+            },
+            "message" : "Closing curly brace should be on the same line as opening curly brace or on the line after the previous block.",
+            "column" : 83,
+            "source" : "                        function(data) { print_list(data.data, \"#mongo_content\"); });",
+            "line" : 77,
+            "severity" : 2,
+            "nodeType" : "Punctuator",
+            "ruleId" : "brace-style"
+         },
+         {
+            "ruleId" : "space-in-parens",
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"jobfact\" },",
+            "line" : 78,
+            "nodeType" : "Program",
+            "severity" : 2,
+            "column" : 26,
+            "message" : "There should be no spaces inside this paren.",
+            "fix" : {
+               "range" : [
+                  2988,
+                  2989
+               ],
+               "text" : ""
+            }
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 28,
+            "fix" : {
+               "text" : "'/rest/supremm/explorer/dbstats'",
+               "range" : [
+                  2989,
+                  3021
+               ]
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"jobfact\" },",
+            "line" : 78,
+            "ruleId" : "quotes"
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 111,
+            "fix" : {
+               "range" : [
+                  3072,
+                  3081
+               ],
+               "text" : "'jobfact'"
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 78,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"jobfact\" },",
+            "ruleId" : "quotes"
+         },
+         {
+            "nodeType" : "FunctionExpression",
+            "severity" : 2,
+            "line" : 79,
+            "source" : "                        function(data) { print_list(data.data, \"#jobfact_content\"); });",
+            "ruleId" : "space-before-function-paren",
+            "column" : 33,
+            "message" : "Missing space before function parentheses.",
+            "fix" : {
+               "range" : [
+                  3117,
+                  3117
+               ],
+               "text" : " "
+            }
+         },
+         {
+            "ruleId" : "brace-style",
+            "severity" : 2,
+            "nodeType" : "Punctuator",
+            "line" : 79,
+            "source" : "                        function(data) { print_list(data.data, \"#jobfact_content\"); });",
+            "fix" : {
+               "text" : "\n",
+               "range" : [
+                  3125,
+                  3125
+               ]
+            },
+            "column" : 40,
+            "message" : "Statement inside of curly braces should be on next line."
+         },
+         {
+            "fix" : {
+               "range" : [
+                  3148,
+                  3166
+               ],
+               "text" : "'#jobfact_content'"
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 64,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "source" : "                        function(data) { print_list(data.data, \"#jobfact_content\"); });",
+            "line" : 79,
+            "ruleId" : "quotes"
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Punctuator",
+            "line" : 79,
+            "source" : "                        function(data) { print_list(data.data, \"#jobfact_content\"); });",
+            "ruleId" : "brace-style",
+            "fix" : {
+               "range" : [
+                  3169,
+                  3169
+               ],
+               "text" : "\n"
+            },
+            "column" : 85,
+            "message" : "Closing curly brace should be on the same line as opening curly brace or on the line after the previous block."
+         },
+         {
+            "ruleId" : "space-in-parens",
+            "line" : 80,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"aggregates\" },",
+            "severity" : 2,
+            "nodeType" : "Program",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  3199,
+                  3200
+               ]
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 26
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 28,
+            "fix" : {
+               "text" : "'/rest/supremm/explorer/dbstats'",
+               "range" : [
+                  3200,
+                  3232
+               ]
+            },
+            "ruleId" : "quotes",
+            "line" : 80,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"aggregates\" },",
+            "nodeType" : "Literal",
+            "severity" : 2
+         },
+         {
+            "column" : 111,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  3283,
+                  3295
+               ],
+               "text" : "'aggregates'"
+            },
+            "ruleId" : "quotes",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 80,
+            "source" : "                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"aggregates\" },"
+         },
+         {
+            "ruleId" : "space-before-function-paren",
+            "severity" : 2,
+            "nodeType" : "FunctionExpression",
+            "line" : 81,
+            "source" : "                        function(data) { print_list(data.data, \"#aggregates_content\"); });",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  3331,
+                  3331
+               ]
+            },
+            "message" : "Missing space before function parentheses.",
+            "column" : 33
+         },
+         {
+            "column" : 40,
+            "message" : "Statement inside of curly braces should be on next line.",
+            "fix" : {
+               "text" : "\n",
+               "range" : [
+                  3339,
+                  3339
+               ]
+            },
+            "nodeType" : "Punctuator",
+            "severity" : 2,
+            "line" : 81,
+            "source" : "                        function(data) { print_list(data.data, \"#aggregates_content\"); });",
+            "ruleId" : "brace-style"
+         },
+         {
+            "message" : "Strings must use singlequote.",
+            "column" : 64,
+            "fix" : {
+               "range" : [
+                  3362,
+                  3383
+               ],
+               "text" : "'#aggregates_content'"
+            },
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 81,
+            "source" : "                        function(data) { print_list(data.data, \"#aggregates_content\"); });",
+            "ruleId" : "quotes"
+         },
+         {
+            "severity" : 2,
+            "nodeType" : "Punctuator",
+            "line" : 81,
+            "source" : "                        function(data) { print_list(data.data, \"#aggregates_content\"); });",
+            "ruleId" : "brace-style",
+            "fix" : {
+               "range" : [
+                  3386,
+                  3386
+               ],
+               "text" : "\n"
+            },
+            "message" : "Closing curly brace should be on the same line as opening curly brace or on the line after the previous block.",
+            "column" : 88
+         },
+         {
+            "fix" : {
+               "range" : [
+                  3409,
+                  3421
+               ],
+               "text" : "'#pagetitle'"
+            },
+            "column" : 19,
+            "message" : "Strings must use singlequote.",
+            "line" : 83,
+            "source" : "                $(\"#pagetitle\").text(\"Data flow information for \" + resource_map[resource_id] );",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes"
+         },
+         {
+            "column" : 38,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'Data flow information for '",
+               "range" : [
+                  3428,
+                  3456
+               ]
+            },
+            "ruleId" : "quotes",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                $(\"#pagetitle\").text(\"Data flow information for \" + resource_map[resource_id] );",
+            "line" : 83
+         },
+         {
+            "ruleId" : "space-in-parens",
+            "nodeType" : "Program",
+            "severity" : 2,
+            "line" : 83,
+            "source" : "                $(\"#pagetitle\").text(\"Data flow information for \" + resource_map[resource_id] );",
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 95,
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  3484,
+                  3485
+               ]
+            }
+         },
+         {
+            "ruleId" : "space-before-function-paren",
+            "line" : 86,
+            "source" : "            $(document).ready(function(){",
+            "nodeType" : "FunctionExpression",
+            "severity" : 2,
+            "column" : 39,
+            "message" : "Missing space before function parentheses.",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  3542,
+                  3542
+               ]
+            }
+         },
+         {
+            "line" : 86,
+            "source" : "            $(document).ready(function(){",
+            "nodeType" : "BlockStatement",
+            "severity" : 2,
+            "ruleId" : "padded-blocks",
+            "column" : 41,
+            "message" : "Block must not be padded by blank lines.",
+            "fix" : {
+               "range" : [
+                  3545,
+                  3547
+               ],
+               "text" : "\n"
+            }
+         },
+         {
+            "nodeType" : "BlockStatement",
+            "severity" : 2,
+            "line" : 86,
+            "source" : "            $(document).ready(function(){",
+            "ruleId" : "space-before-blocks",
+            "column" : 41,
+            "message" : "Missing space before opening brace.",
+            "fix" : {
+               "range" : [
+                  3544,
+                  3544
+               ],
+               "text" : " "
+            }
+         },
+         {
+            "ruleId" : "space-in-parens",
+            "severity" : 2,
+            "nodeType" : "Program",
+            "source" : "                $( \"#resourceform\" ).submit(function(evt) {",
+            "line" : 88,
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  3565,
+                  3566
+               ]
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 18
+         },
+         {
+            "fix" : {
+               "text" : "'#resourceform'",
+               "range" : [
+                  3566,
+                  3581
+               ]
+            },
+            "message" : "Strings must use singlequote.",
+            "column" : 20,
+            "source" : "                $( \"#resourceform\" ).submit(function(evt) {",
+            "line" : 88,
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes"
+         },
+         {
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  3581,
+                  3582
+               ]
+            },
+            "column" : 36,
+            "message" : "There should be no spaces inside this paren.",
+            "ruleId" : "space-in-parens",
+            "line" : 88,
+            "source" : "                $( \"#resourceform\" ).submit(function(evt) {",
+            "severity" : 2,
+            "nodeType" : "Program"
+         },
+         {
+            "source" : "                $( \"#resourceform\" ).submit(function(evt) {",
+            "line" : 88,
+            "nodeType" : "FunctionExpression",
+            "severity" : 2,
+            "ruleId" : "space-before-function-paren",
+            "column" : 53,
+            "message" : "Missing space before function parentheses.",
+            "fix" : {
+               "range" : [
+                  3599,
+                  3599
+               ],
+               "text" : " "
+            }
+         },
+         {
+            "fix" : {
+               "range" : [
+                  3679,
+                  3680
+               ],
+               "text" : ""
+            },
+            "message" : "There should be no spaces inside this paren.",
+            "column" : 30,
+            "ruleId" : "space-in-parens",
+            "line" : 90,
+            "source" : "                    loadstats( $(\"#resourceselect\").val() );",
+            "severity" : 2,
+            "nodeType" : "Program"
+         },
+         {
+            "column" : 34,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  3682,
+                  3699
+               ],
+               "text" : "'#resourceselect'"
+            },
+            "ruleId" : "quotes",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                    loadstats( $(\"#resourceselect\").val() );",
+            "line" : 90
+         },
+         {
+            "column" : 59,
+            "message" : "There should be no spaces inside this paren.",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  3706,
+                  3707
+               ]
+            },
+            "nodeType" : "Program",
+            "severity" : 2,
+            "line" : 90,
+            "source" : "                    loadstats( $(\"#resourceselect\").val() );",
+            "ruleId" : "space-in-parens"
+         },
+         {
+            "ruleId" : "quotes",
+            "line" : 93,
+            "source" : "                $.getJSON(\"/rest/supremm/explorer/resources\", {token: token}, function(data) {",
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "column" : 27,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "range" : [
+                  3757,
+                  3791
+               ],
+               "text" : "'/rest/supremm/explorer/resources'"
+            }
+         },
+         {
+            "source" : "                $.getJSON(\"/rest/supremm/explorer/resources\", {token: token}, function(data) {",
+            "line" : 93,
+            "nodeType" : "ObjectExpression",
+            "severity" : 2,
+            "ruleId" : "object-curly-spacing",
+            "column" : 63,
+            "message" : "A space is required after '{'.",
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  3794,
+                  3794
+               ]
+            }
+         },
+         {
+            "fix" : {
+               "text" : " ",
+               "range" : [
+                  3806,
+                  3806
+               ]
+            },
+            "message" : "A space is required before '}'.",
+            "column" : 76,
+            "ruleId" : "object-curly-spacing",
+            "source" : "                $.getJSON(\"/rest/supremm/explorer/resources\", {token: token}, function(data) {",
+            "line" : 93,
+            "severity" : 2,
+            "nodeType" : "ObjectExpression"
+         },
+         {
+            "fix" : {
+               "range" : [
+                  3817,
+                  3817
+               ],
+               "text" : " "
+            },
+            "message" : "Missing space before function parentheses.",
+            "column" : 87,
+            "ruleId" : "space-before-function-paren",
+            "severity" : 2,
+            "nodeType" : "FunctionExpression",
+            "line" : 93,
+            "source" : "                $.getJSON(\"/rest/supremm/explorer/resources\", {token: token}, function(data) {"
+         },
+         {
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "line" : 94,
+            "source" : "                    var select = document.getElementById(\"resourceselect\");",
+            "ruleId" : "quotes",
+            "message" : "Strings must use singlequote.",
+            "column" : 58,
+            "fix" : {
+               "range" : [
+                  3883,
+                  3899
+               ],
+               "text" : "'resourceselect'"
+            }
+         },
+         {
+            "source" : "                    for (var i = 0; i < data.data.length ; i++) {",
+            "line" : 96,
+            "severity" : 2,
+            "nodeType" : "ForStatement",
+            "ruleId" : "semi-spacing",
+            "fix" : {
+               "range" : [
+                  3959,
+                  3960
+               ],
+               "text" : ""
+            },
+            "message" : "Unexpected whitespace before semicolon.",
+            "column" : 58
+         },
+         {
+            "nodeType" : "Literal",
+            "severity" : 2,
+            "source" : "                        var tmp = document.createElement(\"option\");",
+            "line" : 98,
+            "ruleId" : "quotes",
+            "column" : 58,
+            "message" : "Strings must use singlequote.",
+            "fix" : {
+               "text" : "'option'",
+               "range" : [
+                  4078,
+                  4086
+               ]
+            }
+         },
+         {
+            "nodeType" : "Program",
+            "severity" : 2,
+            "line" : 105,
+            "source" : "                    $( \"#resourceform\" ).submit();",
+            "ruleId" : "space-in-parens",
+            "column" : 22,
+            "message" : "There should be no spaces inside this paren.",
+            "fix" : {
+               "text" : "",
+               "range" : [
+                  4345,
+                  4346
+               ]
+            }
+         },
+         {
+            "fix" : {
+               "range" : [
+                  4346,
+                  4361
+               ],
+               "text" : "'#resourceform'"
+            },
+            "column" : 24,
+            "message" : "Strings must use singlequote.",
+            "line" : 105,
+            "source" : "                    $( \"#resourceform\" ).submit();",
+            "severity" : 2,
+            "nodeType" : "Literal",
+            "ruleId" : "quotes"
+         },
+         {
+            "line" : 105,
+            "source" : "                    $( \"#resourceform\" ).submit();",
+            "nodeType" : "Program",
+            "severity" : 2,
+            "ruleId" : "space-in-parens",
+            "column" : 40,
+            "message" : "There should be no spaces inside this paren.",
+            "fix" : {
+               "range" : [
+                  4361,
+                  4362
+               ],
+               "text" : ""
+            }
+         },
+         {
+            "ruleId" : "padded-blocks",
+            "source" : "            });",
+            "line" : 108,
+            "severity" : 2,
+            "nodeType" : "BlockStatement",
+            "fix" : {
+               "text" : "\n",
+               "range" : [
+                  4393,
+                  4395
+               ]
+            },
+            "column" : 13,
+            "message" : "Block must not be padded by blank lines."
+         }
+      ],
+      "warningCount" : 0,
+      "filePath" : "/home/jpwhite4/xdmod-public/xdmod-supremm/html/internal_dashboard/supremm/js/stats.js",
+      "errorCount" : 160,
+      "source" : "\n            jsPlumb.ready(function() {\n\n                var common = {\n                      endpoints:[\"Blank\", \"Blank\" ],\n                      overlays: [ [ \"PlainArrow\", { location: 1.0 } ] ],\n                      paintStyle: { strokeStyle:\"#216477\", lineWidth:5 }\n                    };\n\n                jsPlumb.setContainer($(\"#flowchart\"));\n\n                jsPlumb.connect({\n                      source:$(\"#remote_machine\"),\n                      target: $(\"#local_mirror\"),\n                      connector: \"Straight\",\n                      anchor: \"AutoDefault\"\n                  }, common);\n\n                jsPlumb.connect({\n                      source:$(\"#local_mirror\"),\n                      target: $(\"#accountfact\"),\n                      anchors:[ \"BottomCenter\", \"TopCenter\" ]\n                  }, common);\n\n                jsPlumb.connect({\n                      source:$(\"#local_mirror\"),\n                      target: $(\"#mongo\"),\n                      anchors:[ \"BottomCenter\", \"TopCenter\" ]\n                  }, common);\n\n                jsPlumb.connect({\n                      source:$(\"#accountfact\"),\n                      target: $(\"#mongo\"),\n                      anchors:[ \"BottomCenter\", \"TopCenter\" ]\n                  }, common);\n\n                jsPlumb.connect({\n                      source:$(\"#mongo\"),\n                      target: $(\"#jobfact\"),\n                      anchor: \"AutoDefault\"\n                  }, common);\n\n                jsPlumb.connect({\n                      source:$(\"#jobfact\"),\n                      target: $(\"#aggregates\"),\n                      connector: \"Straight\",\n                      anchor: \"AutoDefault\"\n                  }, common);\n\n            });\n\n            var resource_map = {};\n\n            var loadstats = function(resource_id) {\n\n                var loading = \"<img src=\\\"/gui/images/loading.gif\\\"></img>Loading\";\n\n                $(\"#accountfact_content\").html(loading);\n                $(\"#mongo_content\").html(loading);\n                $(\"#jobfact_content\").html(loading);\n                $(\"#aggregates_content\").html(loading);\n\n                var print_list = function(data, selector) {\n                    var h = \"<ul>\";\n                    for( var k in data ) {\n                        if( data.hasOwnProperty(k) ) {\n                            h = h + \"<li>\" + k + \": \" + data[k] + \"</li>\";\n                        }\n                    }\n                    h = h + \"</ul>\";\n                    $(selector).html(h);\n                };\n\n                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"accountdb\" },\n                        function(data) { print_list(data.data, \"#accountfact_content\"); });\n                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"summarydb\" },\n                        function(data) { print_list(data.data, \"#mongo_content\"); });\n                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"jobfact\" },\n                        function(data) { print_list(data.data, \"#jobfact_content\"); });\n                $.getJSON( \"/rest/supremm/explorer/dbstats\", { token: token, resource_id: resource_id, db_id: \"aggregates\" },\n                        function(data) { print_list(data.data, \"#aggregates_content\"); });\n\n                $(\"#pagetitle\").text(\"Data flow information for \" + resource_map[resource_id] );\n            };\n\n            $(document).ready(function(){\n\n                $( \"#resourceform\" ).submit(function(evt) {\n                    evt.preventDefault();\n                    loadstats( $(\"#resourceselect\").val() );\n                });\n\n                $.getJSON(\"/rest/supremm/explorer/resources\", {token: token}, function(data) {\n                    var select = document.getElementById(\"resourceselect\");\n\n                    for (var i = 0; i < data.data.length ; i++) {\n                        var element = data.data[i];\n                        var tmp = document.createElement(\"option\");\n                        tmp.text = element.name;\n                        tmp.value = element.id;\n                        select.appendChild(tmp);\n                        resource_map[element.id] = element.name;\n                    }\n\n                    $( \"#resourceform\" ).submit();\n                });\n\n            });\n"
+   }
+]

@@ -3,6 +3,23 @@
 var diff = require('diff');
 var colors = require('colors');
 
+var compare = function(a, b) {
+    switch (typeof a) {
+    case 'string':
+        return a.localeCompare(b);
+    case 'number':
+        if (a < b) {
+            return -1;
+        } else if ( a > b ) {
+            return 1;
+        } else {
+            return 0;
+        }
+    default:
+        throw new Error('Unsupported datatype');
+    }
+};
+
 var process_lintfile = function(filename) {
 
     var i, file;
@@ -37,6 +54,19 @@ var process_lintfile = function(filename) {
     } else {
         // eslint mode
         output.report.file = report[0].filePath;
+        // eslint does not return the json errors in a deterministic order
+        // so sort the errors before processing.
+        var comparison = function(a, b) {
+            var properties = ['line', 'column', 'severity', 'message'];
+            var i, result = 0;
+            for (i = 0; result === 0 && i < properties.length; i++) {
+                result = compare(a[properties[i]],  b[properties[i]]);
+            }
+            return result;
+        };
+
+        report[0].messages.sort(comparison);
+
         for (i = 0; i < report[0].messages.length; i++) {
             message = report[0].messages[i];
             output.report.messages.push({
