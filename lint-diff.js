@@ -57,7 +57,7 @@ var process_lintfile = function(filename) {
         // eslint does not return the json errors in a deterministic order
         // so sort the errors before processing.
         var comparison = function(a, b) {
-            var properties = ['line', 'column', 'severity', 'message'];
+            var properties = ['line', 'column', 'severity', 'message', 'ruleId'];
             var i, result = 0;
             for (i = 0; result === 0 && i < properties.length; i++) {
                 result = compare(a[properties[i]],  b[properties[i]]);
