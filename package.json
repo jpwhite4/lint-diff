@@ -2,7 +2,7 @@
     "name": "lint-diff",
     "repository": "https://github.com/jpwhite4/lint-diff",
     "licence": "GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "bin": "./lint-diff.js",
     "description": "Helper script to diff lint output files",
