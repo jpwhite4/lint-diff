@@ -8,8 +8,8 @@
     "description": "Helper script to diff lint output files",
     "author": "Joseph P. White <jpwhite4@buffalo.edu>",
     "dependencies": {
-        "diff": "3.2.x",
-        "colors": "1.1.x"
+        "diff": "5.1.x",
+        "colors": "1.4.x"
     },
     "engine": "node >= 0.10.25"
 }
