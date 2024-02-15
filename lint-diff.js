@@ -75,7 +75,7 @@ var process_lintfile = function(filename) {
                 type: message.severity > 1 ? 'error' : 'warning',
                 message: message.message + ' (' + message.ruleId + ')'
             });
-            output.messages.push(message.ruleId + message.severity + message.source + message.message);
+            output.messages.push(message.ruleId + message.severity + message.source + message.messageId);
         }
         return output;
     }
