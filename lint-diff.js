@@ -57,13 +57,17 @@ var process_lintfile = function(filename) {
         // eslint does not return the json errors in a deterministic order
         // so sort the errors before processing.
         var comparison = function(a, b) {
-            var properties = ['line', 'column', 'severity', 'message', 'messageId', 'ruleId'];
+            var properties = ['line', 'column', 'severity', 'message', 'ruleId'];
             var i, result = 0;
             for (i = 0; result === 0 && i < properties.length; i++) {
                 result = compare(a[properties[i]],  b[properties[i]]);
             }
             return result;
         };
+
+        report[0].messages.forEach((elem) => {
+            elem.message = elem.message.replaceAll(/on line \d+ column \d+/g, '');
+        });
 
         report[0].messages.sort(comparison);
 
@@ -75,12 +79,7 @@ var process_lintfile = function(filename) {
                 type: message.severity > 1 ? 'error' : 'warning',
                 message: message.message + ' (' + message.ruleId + ')'
             });
-            if (message.message.includes('on line')) {
-                output.messages.push(message.ruleId + message.severity + message.messageId);
-            }
-            else {
-                output.messages.push(message.ruleId + message.severity + message.message + message.messageId);
-            }
+            output.messages.push(message.ruleId + message.severity + message.message);
         }
         return output;
     }
