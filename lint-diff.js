@@ -65,6 +65,10 @@ var process_lintfile = function(filename) {
             return result;
         };
 
+        report[0].messages.forEach((elem) => {
+            elem.message = elem.message.replaceAll(/on line \d+ column \d+/g, '');
+        });
+
         report[0].messages.sort(comparison);
 
         for (i = 0; i < report[0].messages.length; i++) {
@@ -75,7 +79,7 @@ var process_lintfile = function(filename) {
                 type: message.severity > 1 ? 'error' : 'warning',
                 message: message.message + ' (' + message.ruleId + ')'
             });
-            output.messages.push(message.ruleId + message.severity + message.source + message.message);
+            output.messages.push(message.ruleId + message.severity + message.message);
         }
         return output;
     }
